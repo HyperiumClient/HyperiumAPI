@@ -4,6 +4,7 @@ import cc.hyperium.api.requests.APIRequest
 import cc.hyperium.api.responses.APIResponse
 import okhttp3.OkHttpClient
 
+@Suppress("unused")
 class HyperiumAPI{
     val client: OkHttpClient = OkHttpClient()
     val apiBase = "https://api.hyperium.cc/"
