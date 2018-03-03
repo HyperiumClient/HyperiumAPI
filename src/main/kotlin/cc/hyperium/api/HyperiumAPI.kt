@@ -5,7 +5,8 @@ import cc.hyperium.api.responses.APIResponse
 import okhttp3.OkHttpClient
 
 class HyperiumAPI{
-    private val client: OkHttpClient = OkHttpClient()
+    val client: OkHttpClient = OkHttpClient()
+    val apiBase = "https://api.hyperium.cc/"
     fun <T> request (request: APIRequest<T>) : APIResponse<T>{
         return request.request(this)
     }
