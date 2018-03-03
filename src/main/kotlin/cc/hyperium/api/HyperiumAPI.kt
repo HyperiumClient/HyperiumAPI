@@ -7,6 +7,6 @@ import okhttp3.OkHttpClient
 class HyperiumAPI{
     private val client: OkHttpClient = OkHttpClient()
     fun <T> request (request: APIRequest<T>) : APIResponse<T>{
-        return request.request()
+        return request.request(this)
     }
 }
