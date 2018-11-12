@@ -1,5 +1,5 @@
 # Hyperium API
-Hyperium's API Wrapper, Made in kotlin by Cubxity
+Hyperium's API Wrapper, Made in Kotlin by Cubxity
 
 # Usage
 **Getting Purchases**
